@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-JavaScript-Templates/3.20.0/js/tmpl.min.js" integrity="sha512-yQJVqoTPFSC73MaslsQaVJ0zHku4Cby3NpQzweSYju+kduWspfF4HmJ3zAo1QGERfsoXdf45q54ph8XTjOlp8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.29.0/js/canvas-to-blob.min.js" integrity="sha512-zkt2aBQ0jhSXjI6VhJegNqBN3Kqlbi7PxpxOpELGoKtRGSuPOVGvetuTixdhQSuRefsFKroRgWRwQDpRcMd3+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Stop Watch App</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark text-center flex-center">
+        <a href="#" id="navbar" class="navbar-brand text-center">Stop Watch App</a>
+    </nav>
+
+<!-- JS Stop Watch -->
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="card">
+                    <div class="card-header bg-danger text-center text-white">
+                        <h3 id="header">JS Stop Watch</h3>
+                    </div>
+                    <div class="card-body bg-light text-center">
+                        <h1 class="display-2 display-flex justify-content-center align-items-center">
+                            <span id="minutes">00</span> :
+                            <span id="seconds">00</span> :
+                            <span id="m-second">00</span>
+                        </h1>
+                        <button class="btn btn-success" id="start-btn">Start</button>
+                        <button class="btn btn-danger" id="stop-btn">Stop</button>
+                        <button class="btn btn-primary" id="reset-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Bootstrap JS Files -->
+<script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/mdb.js"></script>
+
+<!-- Local JS File -->
+<script src="23_app.js"></script>
+</body>
+</html>

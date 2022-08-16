@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav{
+    /*background: darkgreen;*/
+    padding: 12px;
+    border-radius: 8px;
+}
+nav a{
+    font-size: 25px;
+    color: white!important;
+}

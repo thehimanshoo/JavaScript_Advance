@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav{
+    /*background: darkgreen;*/
+    padding: 12px;
+    border-radius: 8px;
+}
+nav a{
+    font-size: 25px;
+    color: white!important;
+}
+
+.card-header{
+    border-radius: 10px 10px 0 0!important;
+    text-shadow: 5px 5px 5px black;
+}
+
+.card-body{
+    border-radius: 0 0 5px 5px;
+}

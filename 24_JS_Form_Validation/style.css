@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav{
+    /*background: darkgreen;*/
+    padding: 12px;
+    border-radius: 8px;
+}
+nav a{
+    font-size: 25px;
+    color: white !important;
+}
+
+/*
+    Form parts Starts form here :-
+ */
+
+.card-header{
+    border-radius: 5px 5px 0 0 !important;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #0f6674;
+    box-shadow: 5px 5px 0 black;
+}
+
+.card-header h3{
+    font-size: 30px;
+}
+
+.card-body{
+    border-radius: 0 0 5px 5px;
+    box-shadow: 5px 5px 0 black;
+    background: #CED4DA;
+}
+
+#submit{
+    border-radius: 50px;
+    font-size: 18px;
+    text-shadow: 2px 2px 0 black;
+    box-shadow: 0 0 5px black;
+}
+
+#submit:hover{
+    background: linear-gradient(45deg, #0c5460,black) !important;
+    font-size: 20px;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+
+.is-form-valid{
+    border: 1px solid limegreen;
+    border-left: 15px solid limegreen;
+    box-shadow: 0 0 5px limegreen;
+}
+
+.is-form-invalid{
+    border: 1px solid orangered;
+    border-left: 15px solid orangered;
+    box-shadow: 0 0 5px orangered;
+}
+
+.text-success{
+    color: limegreen !important;
+    font-size: 14px !important;
+}
+
+.text-danger{
+    color: orangered !important;
+    font-size: 14px !important;
+}

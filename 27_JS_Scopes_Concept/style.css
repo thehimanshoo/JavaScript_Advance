@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav{
+    padding: 12px;
+    border-radius: 8px;
+}
+nav a{
+    font-size: 30px !important;
+    color: white!important;
+    font-weight: bold;
+    text-shadow: 4px 4px black;
+}

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-JavaScript-Templates/3.20.0/js/tmpl.min.js" integrity="sha512-yQJVqoTPFSC73MaslsQaVJ0zHku4Cby3NpQzweSYju+kduWspfF4HmJ3zAo1QGERfsoXdf45q54ph8XTjOlp8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.29.0/js/canvas-to-blob.min.js" integrity="sha512-zkt2aBQ0jhSXjI6VhJegNqBN3Kqlbi7PxpxOpELGoKtRGSuPOVGvetuTixdhQSuRefsFKroRgWRwQDpRcMd3+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Digital Watch App</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark mb-3">
+        <a href="#" class="navbar-brand">Digital Watch App</a>
+    </nav>
+
+<!-- Digital Watch App -->
+
+    <!-- India -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Indian Watch -->
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body bg-danger text-white text-center">
+                        <h5 id="indianTimeZone">Asia/Kolkata</h5>
+                        <h4 class="display-4">India</h4>
+                        <p id="indian-date">04/01/2022</p>
+                        <h4 id="indian-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- United States of America (USA) Watch -->
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body bg-secondary text-white text-center">
+                        <h5 id="usaTimeZone">America/New_York</h5>
+                        <h4 class="display-4">USA</h4>
+                        <p id="usa-date">04/01/2022</p>
+                        <h4 id="usa-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- China Watch -->
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body bg-success text-white text-center">
+                        <h5 id="chinaTimeZone">Asia/Shanghai</h5>
+                        <h4 class="display-4">China</h4>
+                        <p id="china-date">04/01/2022</p>
+                        <h4 id="china-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- England Watch -->
+
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <div class="card-body bg-primary text-white text-center">
+                        <h5 id="englandTimeZone">Europe/London</h5>
+                        <h4 class="display-4">England</h4>
+                        <p id="england-date">04/01/2022</p>
+                        <h4 id="england-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Australia Watch -->
+
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <div class="card-body bg-default text-white text-center">
+                        <h5 id="australianTimeZone">Australia/Queensland</h5>
+                        <h4 class="display-4">Australia</h4>
+                        <p id="australian-date">04/01/2022</p>
+                        <h4 id="australian-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Russia Watch -->
+
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <div class="card-body bg-info text-white text-center">
+                        <h5 id="russianTimeZone">Asia/Moscow</h5>
+                        <h4 class="display-4">Russia</h4>
+                        <p id="russian-date">04/01/2022</p>
+                        <h4 id="russian-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- South Africa Watch -->
+
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <div class="card-body bg-dark text-white text-center">
+                        <h5 id="southAfricaTimeZone">Africa/Johannesburg</h5>
+                        <h4 class="display-4">South Africa</h4>
+                        <p id="southAfrica-date">04/01/2022</p>
+                        <h4 id="southAfrica-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bangladesh Watch -->
+
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <div class="card-body blue-gradient-rgba text-white text-center">
+                        <h5 id="bangladeshTimeZone">Asia/Dhaka</h5>
+                        <h4 class="display-4">Bangladesh</h4>
+                        <p id="bangladesh-date">04/01/2022</p>
+                        <h4 id="bangladesh-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nepal Watch -->
+
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <div class="card-body bg-primary text-white text-center">
+                        <h5 id="nepalTimeZone">Asia/Kathmandu</h5>
+                        <h4 class="display-4">Nepal</h4>
+                        <p id="nepal-date">04/01/2022</p>
+                        <h4 id="nepal-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Saudi Arabia Watch -->
+
+            <div class="col-md-4 mt-5 mb-5">
+                <div class="card">
+                    <div class="card-body bg-warning text-white text-center">
+                        <h5 id="saudiTimeZone">Asia/Riyadh</h5>
+                        <h4 class="display-4">Saudi Arabia</h4>
+                        <p id="saudi-date">04/01/2022</p>
+                        <h4 id="saudi-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UAE Watch -->
+
+            <div class="col-md-4 mt-5 mb-5">
+                <div class="card">
+                    <div class="card-body bg-dark text-white text-center">
+                        <h5 id="uaeTimeZone">Asia/Dubai</h5>
+                        <h4 class="display-4">UAE</h4>
+                        <p id="uae-date">04/01/2022</p>
+                        <h4 id="uae-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Philippine Watch -->
+
+            <div class="col-md-4 mt-5 mb-5">
+                <div class="card">
+                    <div class="card-body bg-default text-white text-center">
+                        <h5 id="pakistanTimeZone">Asia/Karachi</h5>
+                        <h4 class="display-4">Pakistan</h4>
+                        <p id="pakistan-date">04/01/2022</p>
+                        <h4 id="pakistan-time" class="display-4">10:00:00 PM</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS Files -->
+<script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/mdb.js"></script>
+
+<!-- Local JS File -->
+<script src="21_app.js"></script>
+</body>
+</html>

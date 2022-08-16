@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav{
+    /*background: darkgreen;*/
+    padding: 12px;
+    border-radius: 8px;
+}
+nav a{
+    font-size: 25px;
+    color: white!important;
+}
+
+table{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.card-header{
+    border-radius: 5px 5px 0 0 !important;
+    box-shadow: 3px 2px 5px black;
+}
+
+.card-header h3{
+    text-align: center;
+    text-shadow: 2px 3px darkred;
+}
+
+.btn-primary{
+    background: linear-gradient(145deg, #4285f4,black)!important;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px black;
+    height: 32px!important;
+
+}
+.btn-danger{
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px black;
+    height: 32px!important;
+    background: linear-gradient(145deg, #ff3547, black);
+}
+.img-card{
+    box-shadow: 0 5px 10px black;
+}
+.card-image{
+    border-radius: 5px 5px 0 0 !important;
+}

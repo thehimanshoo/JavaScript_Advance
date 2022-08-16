@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+nav{
+    background: orangered;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 30px;
+}
+h1{
+    Color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 45px;
+    background: #0c5460;
+    margin-left: 12px;
+    padding: 12px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    text-decoration-color: #1e88e5;
+    text-shadow: 0 0 20px #9540bf;
+    border-radius: 10px 30px 10px 30px;
+    text-anchor: end;
+}
